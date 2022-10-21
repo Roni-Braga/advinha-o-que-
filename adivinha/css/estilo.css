@@ -1,0 +1,83 @@
+
+.game{
+
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	}
+.jogo{
+	display: flex;
+	justify-content:center;	
+	align-items: center;
+	border: solid 1px;
+}
+.nav{
+	border: solid 1px;
+	display: flex;
+	justify-content: center;
+}
+.nav p {
+	color: #c3a449;
+	text-align: center;
+}
+.jogo table{
+	width: 300px;
+	height: 400px;
+	border: solid 1px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #c3a449;
+
+}
+.jogo table tr td{
+	border: solid 1px;
+	border-color: white;
+}
+.jogo table tr td:hover{
+	box-shadow: 3px 3px 3px 3px;
+}
+
+.jogo table a:hover{
+	box-shadow: 1px 1px 1px 1px;
+
+
+}
+.jogo button{
+	width: 200px;
+	height: 50px;
+	margin: 20px;
+	border-radius: 8px;
+	background-color: white;
+}
+.jogo button:hover{
+	color: #FFFAFA;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #8A2BE2;
+}
+
+.res{
+	font-size: 300px;	
+  color: blue;
+}
+h2{
+	color: #c3a449;
+}
+.botao{
+	display: flex;
+	flex-direction: column;
+	border: solid 1px;
+	
+}
+.botao button{
+	height: 50px;
+	background-color:  #FFFAFA;
+	font-weight: bold;
+}
+.botao button:hover{
+	color: #FFFAFA;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #8A2BE2;
+}
